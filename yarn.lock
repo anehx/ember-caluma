@@ -1684,6 +1684,14 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
+"@miragejs/graphql@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@miragejs/graphql/-/graphql-0.1.10.tgz#6aed1af6d830103065af55eaeda65baf6aedb687"
+  integrity sha512-SxmgRW/h2fTinZa6nku/Rg4TRnj2yyrKCxJo8zgW/HoZ46KyeCN/qrLRv+SN68u/M9KeDPqfaxXv8lSGUgGHvA==
+  dependencies:
+    graphql "^15.0.0"
+    miragejs "^0.1.0"
+
 "@miragejs/pretender-node-polyfill@^0.1.0":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@miragejs/pretender-node-polyfill/-/pretender-node-polyfill-0.1.2.tgz#d26b6b7483fb70cd62189d05c95d2f67153e43f2"
@@ -10016,7 +10024,7 @@ graphql@^14.0.2:
   dependencies:
     iterall "^1.2.2"
 
-graphql@^15.4.0:
+graphql@^15.0.0, graphql@^15.4.0:
   version "15.5.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.5.0.tgz#39d19494dbe69d1ea719915b578bf920344a69d5"
   integrity sha512-OmaM7y0kaK31NKG31q4YbD2beNYa6jBBKtMFT6gLYJljHLJr42IqJ8KX08u3Li/0ifzTU5HjmoOOrwa5BRLeDA==
@@ -12670,7 +12678,7 @@ minizlib@^1.2.1:
   dependencies:
     minipass "^2.9.0"
 
-miragejs@^0.1.31:
+miragejs@^0.1.0, miragejs@^0.1.31:
   version "0.1.41"
   resolved "https://registry.yarnpkg.com/miragejs/-/miragejs-0.1.41.tgz#1b06a2d2d9de65624f5bb1cee7ebb4a208f554d0"
   integrity sha512-ur8x7sBskgey64vdzKGVCVC3hgKXWl2Cg5lZbxd6OmKrhr9LCCP/Bv7qh4wsQxIMHZnENxybFATXnrQ+rzSOWQ==

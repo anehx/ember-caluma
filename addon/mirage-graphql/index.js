@@ -1,43 +1,34 @@
-import { dasherize } from "@ember/string";
-import require from "require";
+import {
+  mirageGraphQLFieldResolver,
+  createGraphQLHandler,
+} from "@miragejs/graphql";
 
-const importTypeOrBase = (path, type) => {
-  try {
-    return require(`${path}/${dasherize(type)}`).default;
-  } catch (e) {
-    return require(`${path}/base`).default;
-  }
+import resolvers from "ember-caluma/mirage-graphql/resolvers";
+import rawSchema from "ember-caluma/mirage-graphql/schema";
+
+const filterResolver = ({ allowedFilters }) => (obj, args, context, info) => {
+  const filters = allowedFilters.reduce((filters, key) => {
+    const value = args.filter?.[key];
+
+    return {
+      ...(value ? { [key]: value } : {}),
+      ...filters,
+    };
+  }, {});
+
+  return mirageGraphQLFieldResolver(obj, filters, context, info);
 };
 
-export const register = (tpl) => (target, name, descriptor) => {
-  if (descriptor.value.__isHandler) {
-    descriptor.value.__handlerFor.push(tpl);
-    return descriptor;
-  }
-
-  descriptor.writable = false;
-  descriptor.enumerable = true;
-
-  descriptor.value = {
-    __isHandler: true,
-    // Mocks can have multiple handlers per type.
-    __handlerFor: [tpl],
-    fn: descriptor.value,
-  };
-
-  return descriptor;
-};
-
-export const Serializer = function (type, ...args) {
-  return new (importTypeOrBase("./serializers", type))(type, ...args);
-};
-
-export const Filter = function (type, ...args) {
-  return new (importTypeOrBase("./filters", type))(type, ...args);
-};
-
-export const Mock = function (type, ...args) {
-  return new (importTypeOrBase("./mocks", type))(type, ...args);
-};
-
-export { default } from "./handler";
+export default function ({ schema }) {
+  return createGraphQLHandler(rawSchema, schema, {
+    resolvers: {
+      Query: {
+        allForms: filterResolver({ allowedFilters: ["slug", "isArchived"] }),
+        allQuestions: filterResolver({
+          allowedFilters: ["slug", "isArchived"],
+        }),
+      },
+      ...resolvers,
+    },
+  });
+}

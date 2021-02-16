@@ -1,18 +1,21 @@
 import { visit, currentURL, click, fillIn } from "@ember/test-helpers";
-import { setupMirage } from "ember-cli-mirage/test-support";
+import { setupQunit as setupPolly } from "@pollyjs/core";
 import { setupIntl } from "ember-intl/test-support";
 import { setupApplicationTest } from "ember-qunit";
 import { module, test } from "qunit";
 
 module("Acceptance | form new", function (hooks) {
   setupApplicationTest(hooks);
-  setupMirage(hooks);
+  setupPolly(hooks);
   setupIntl(hooks);
+
+  hooks.beforeEach(function () {
+    this.polly.server.get("/versions.json").passthrough();
+    this.polly.server.get("/docs/*").passthrough();
+  });
 
   test("can create a form", async function (assert) {
     assert.expect(3);
-
-    this.server.createList("form", 2);
 
     await visit("/demo/form-builder/");
 

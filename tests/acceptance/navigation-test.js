@@ -1,25 +1,17 @@
 import { visit, currentURL, click } from "@ember/test-helpers";
-import { setupMirage } from "ember-cli-mirage/test-support";
+import { setupQunit as setupPolly } from "@pollyjs/core";
 import { setupIntl } from "ember-intl/test-support";
 import { setupApplicationTest } from "ember-qunit";
 import { module, test } from "qunit";
 
 module("Acceptance | navigation", function (hooks) {
   setupApplicationTest(hooks);
-  setupMirage(hooks);
+  setupPolly(hooks);
   setupIntl(hooks);
 
   hooks.beforeEach(function () {
-    this.server.create("form", {
-      title: "Form 1",
-      slug: "form-1",
-      questions: [
-        this.server.create("question", {
-          label: "Question #1",
-          slug: "question-1",
-        }),
-      ],
-    });
+    this.polly.server.get("/versions.json").passthrough();
+    this.polly.server.get("/docs/*").passthrough();
   });
 
   test("can navigate", async function (assert) {

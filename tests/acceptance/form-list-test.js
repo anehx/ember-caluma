@@ -1,18 +1,21 @@
 import { visit } from "@ember/test-helpers";
-import { setupMirage } from "ember-cli-mirage/test-support";
+import { setupQunit as setupPolly } from "@pollyjs/core";
 import { setupIntl } from "ember-intl/test-support";
 import { setupApplicationTest } from "ember-qunit";
 import { module, test } from "qunit";
 
 module("Acceptance | form list", function (hooks) {
   setupApplicationTest(hooks);
-  setupMirage(hooks);
+  setupPolly(hooks);
   setupIntl(hooks);
+
+  hooks.beforeEach(function () {
+    this.polly.server.get("/versions.json").passthrough();
+    this.polly.server.get("/docs/*").passthrough();
+  });
 
   test("can list forms", async function (assert) {
     assert.expect(1);
-
-    this.server.createList("form", 5);
 
     await visit("/demo/form-builder");
 

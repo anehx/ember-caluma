@@ -1,24 +1,21 @@
 import { visit, triggerEvent, find } from "@ember/test-helpers";
-import { setupMirage } from "ember-cli-mirage/test-support";
+import { setupQunit as setupPolly } from "@pollyjs/core";
 import { setupIntl } from "ember-intl/test-support";
 import { setupApplicationTest } from "ember-qunit";
 import { module, test } from "qunit";
 
 module("Acceptance | question reorder", function (hooks) {
   setupApplicationTest(hooks);
-  setupMirage(hooks);
+  setupPolly(hooks);
   setupIntl(hooks);
+
+  hooks.beforeEach(function () {
+    this.polly.server.get("/versions.json").passthrough();
+    this.polly.server.get("/docs/*").passthrough();
+  });
 
   test("can reorder questions", async function (assert) {
     assert.expect(2);
-
-    const questions = this.server.createList("question", 4);
-    const question = this.server.create("question", { slug: "test" });
-
-    this.server.create("form", {
-      slug: "test-form",
-      questions: [...questions, question],
-    });
 
     await visit("/demo/form-builder/test-form");
 

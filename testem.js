@@ -23,4 +23,9 @@ module.exports = {
       ].filter(Boolean),
     },
   },
+  proxies: {
+    "/graphql": {
+      target: "http://localhost:8000",
+    },
+  },
 };

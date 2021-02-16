@@ -1,20 +1,21 @@
 import { visit, currentURL, click } from "@ember/test-helpers";
-import { setupMirage } from "ember-cli-mirage/test-support";
+import { setupQunit as setupPolly } from "@pollyjs/core";
 import { setupIntl } from "ember-intl/test-support";
 import { setupApplicationTest } from "ember-qunit";
 import { module, test } from "qunit";
 
 module("Acceptance | question remove", function (hooks) {
   setupApplicationTest(hooks);
-  setupMirage(hooks);
+  setupPolly(hooks);
   setupIntl(hooks);
+
+  hooks.beforeEach(function () {
+    this.polly.server.get("/versions.json").passthrough();
+    this.polly.server.get("/docs/*").passthrough();
+  });
 
   test("can remove a question", async function (assert) {
     assert.expect(4);
-
-    const { id } = this.server.create("form", { slug: "test-form" });
-    this.server.create("question", { slug: "test-question", formIds: [id] });
-    this.server.create("question", { slug: "test-question2", formIds: [id] });
 
     await visit("/demo/form-builder/test-form/questions/test-question");
 

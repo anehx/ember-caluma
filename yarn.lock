@@ -8164,6 +8164,7 @@ ember-engines-router-service@^0.3.0:
 
 ember-engines@0.8.20, "ember-engines@https://gitpkg.now.sh/anehx/ember-engines/packages/ember-engines?c08f7650ffc4b723e8ba1143d7498e58bc1e4b78":
   version "0.8.20"
+  uid "0defff12268ae3580b7d2ead8c8779827b267219"
   resolved "https://gitpkg.now.sh/anehx/ember-engines/packages/ember-engines?c08f7650ffc4b723e8ba1143d7498e58bc1e4b78#0defff12268ae3580b7d2ead8c8779827b267219"
   dependencies:
     "@embroider/macros" "^1.0.0"
@@ -8437,12 +8438,13 @@ ember-resolver@8.0.3:
     ember-cli-version-checker "^5.1.2"
     resolve "^1.20.0"
 
-ember-resources@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/ember-resources/-/ember-resources-4.2.0.tgz#6a999f0e812181e0c57a50e2090360b61372017a"
-  integrity sha512-ItUOiov4cSPvavA7pG+sl3QZ8GG5D1Fss2Vyv6ychbD+CEiNtXWoBFvV6dfdPZ6GENU8Si8mHoLIcBTgK6BayA==
+ember-resources@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/ember-resources/-/ember-resources-4.3.1.tgz#099ba6100d7e3d704fc1bad7e6a85690a02e88c1"
+  integrity sha512-xt7WohaicQwmfFOMEnMkEH28cOBuOV+rLGKrEaUqvk21fnagQg8aDlhX82FlqirsH5nurvoVB7f3ddIUQHxAEw==
   dependencies:
     "@embroider/addon-shim" "^1.0.0"
+    "@embroider/macros" "^1.0.0"
 
 ember-responsive@^4.0.2:
   version "4.0.2"

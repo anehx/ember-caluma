@@ -29,10 +29,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@apollo/client@^3.2.1", "@apollo/client@^3.5.9":
-  version "3.5.9"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.5.9.tgz#306c1f8453d56dbb4ff1afaaaf16b3b719db696c"
-  integrity sha512-Qq3OE3GpyPG2fYXBzi1n4QXcKZ11c6jHdrXK2Kkn9SD+vUymSrllXsldqnKUK9tslxKqkKzNrkCXkLv7PxwfSQ==
+"@apollo/client@^3.5.10", "@apollo/client@^3.5.9":
+  version "3.5.10"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.5.10.tgz#43463108a6e07ae602cca0afc420805a19339a71"
+  integrity sha512-tL3iSpFe9Oldq7gYikZK1dcYxp1c01nlSwtsMz75382HcI6fvQXyFXUCJTTK3wgO2/ckaBvRGw7VqjFREdVoRw==
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@wry/context" "^0.6.0"
@@ -1424,18 +1424,7 @@
     ember-cli-htmlbars "^5.7.1"
     ember-destroyable-polyfill "^2.0.3"
 
-"@ember/test-waiters@^2.3.0":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-2.4.5.tgz#6e8e34d1bc46a9b0cc22cb11cc5936046e926031"
-  integrity sha512-833JvHtHdEfBfKXgvmw+6oziFOpVfD4NQrc04Ztj59A11K9FPNfZ3P8YydL7LFTtdd7UfJ/cYCLAm+OwUxbotQ==
-  dependencies:
-    calculate-cache-key-for-tree "^2.0.0"
-    ember-cli-babel "^7.26.6"
-    ember-cli-typescript "^4.1.0"
-    ember-cli-version-checker "^5.1.2"
-    semver "^7.3.5"
-
-"@ember/test-waiters@^3.0.0":
+"@ember/test-waiters@^3.0.0", "@ember/test-waiters@~3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@ember/test-waiters/-/test-waiters-3.0.1.tgz#c3416dd6dcb0e3c0434e815e1de144d848ad74b1"
   integrity sha512-LqV55mMiSuhAAWfbJdJf0bxHc22A/CiG8TKyZwpcSv4A1GJIpdlTvqHCrlcdV6T30+L0/uyj14upC3ayWmV0CQ==
@@ -1461,12 +1450,12 @@
     "@embroider/shared-internals" "^1.2.0"
     semver "^7.3.5"
 
-"@embroider/macros@1.2.0", "@embroider/macros@^0.41.0", "@embroider/macros@^0.50.0 || ^1.0.0", "@embroider/macros@^1.0.0", "@embroider/macros@^1.1.0", "@embroider/macros@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.2.0.tgz#9a2d99225fba6dcb69e795cddad9f4948c2a2b6b"
-  integrity sha512-WD2V3OKXZB73OymI/zC2+MbqIYaAskhjtSOVVY6yG6kWILyVsJ6+fcbNHEnZyGqs4sm0TvHVJfevmA2OXV8Pww==
+"@embroider/macros@1.2.0", "@embroider/macros@1.5.0", "@embroider/macros@^0.41.0", "@embroider/macros@^0.50.0 || ^1.0.0", "@embroider/macros@^1.0.0", "@embroider/macros@^1.1.0", "@embroider/macros@^1.2.0", "@embroider/macros@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.5.0.tgz#8c67666359e7814d91cdeac2fd96c896080473b3"
+  integrity sha512-QqNsWmIJ8LvwWg+YAfB+nfcRZ49hAJNTJAKt2IDpgZDKa/FYj/Mp75UWfJ1BJvB3KUq50OQCOv4TZ3ZcU9h/TQ==
   dependencies:
-    "@embroider/shared-internals" "1.2.0"
+    "@embroider/shared-internals" "1.5.0"
     assert-never "^1.2.1"
     babel-import-util "^1.1.0"
     ember-cli-babel "^7.26.6"
@@ -1475,10 +1464,10 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@1.2.0", "@embroider/shared-internals@^1.0.0", "@embroider/shared-internals@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.2.0.tgz#edb3ca7e8528be713dab01818e8caad2dc937fba"
-  integrity sha512-11RfGuXxT+m2xPcpny/ENHjw53CuKPcrx7222LFQ53+I09hLxsvPCsH8be5E99LePDA46YGX41vxOxxfowD4OQ==
+"@embroider/shared-internals@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.5.0.tgz#d3883f13571be36fcdbc59c65c785db7b6d8186e"
+  integrity sha512-kdR7Fh2YdzsNofJO+DJxLfrlMbW4/NNf78aMXgE21z/tg9GO5W2mKlI1DzsO2JlO5yfZdiYfqb9C9vSLJEx14A==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -1501,6 +1490,19 @@
     semver "^7.3.5"
     typescript-memoize "^1.0.1"
 
+"@embroider/shared-internals@^1.0.0", "@embroider/shared-internals@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.2.0.tgz#edb3ca7e8528be713dab01818e8caad2dc937fba"
+  integrity sha512-11RfGuXxT+m2xPcpny/ENHjw53CuKPcrx7222LFQ53+I09hLxsvPCsH8be5E99LePDA46YGX41vxOxxfowD4OQ==
+  dependencies:
+    babel-import-util "^1.1.0"
+    ember-rfc176-data "^0.3.17"
+    fs-extra "^9.1.0"
+    lodash "^4.17.21"
+    resolve-package-path "^4.0.1"
+    semver "^7.3.5"
+    typescript-memoize "^1.0.1"
+
 "@embroider/test-setup@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@embroider/test-setup/-/test-setup-1.2.0.tgz#89220b1f77b6d16b9100686e28958c7643762d40"
@@ -1510,11 +1512,11 @@
     resolve "^1.20.0"
 
 "@embroider/util@^0.39.1 || ^0.40.0 || ^0.41.0 || ^1.0.0", "@embroider/util@^1.0.0", "@embroider/util@^1.1.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@embroider/util/-/util-1.2.0.tgz#8aa8413252ca4a566cb482b46be3b41997f36ea2"
-  integrity sha512-uWgEAhMWghljnYxwsSKZkrB3tY9avJlkJoHvjN+ZazwP/5EfsB7Ck++2WEfIOBOOPEoQr1MYHVlvr+hIMwLrVw==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@embroider/util/-/util-1.5.0.tgz#0c7da82a75052daca7c709d6888b72a1da19822e"
+  integrity sha512-CoE98WDnRtXPn8x8SJkWHGw7frikRIetpImwwC9qyse/AvSoOsS4B5U0G8omZLMvwm2IEc9NemlDrS4ZyUlJ/A==
   dependencies:
-    "@embroider/macros" "1.2.0"
+    "@embroider/macros" "1.5.0"
     broccoli-funnel "^3.0.5"
     ember-cli-babel "^7.23.1"
 
@@ -7239,16 +7241,18 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-ember-apollo-client@3.2.0, ember-apollo-client@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ember-apollo-client/-/ember-apollo-client-3.2.0.tgz#fea5f2ad285a65fa22dd2fc02a785f38dedd025a"
-  integrity sha512-wIlGpw6wrSUeJ6ONL2NH2/ld6mR6KB/KCoVt2vuTcvRl0FgEzJr/6IYxuR0xpuj2+PfpprVn1nrugpHukLDdBQ==
+ember-apollo-client@4.0.2, ember-apollo-client@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/ember-apollo-client/-/ember-apollo-client-4.0.2.tgz#2f7ec52fc88c48930cd4090f9d9c1808f33e9d3b"
+  integrity sha512-Rhp6Tx6pZPL8h2GFtq6rRGBbnmNUi/dpteDhzPgNNS40MqUb721xHcChX4Td2hb3LlkcRT3d/e5WYxmaG2mu5A==
   dependencies:
-    "@apollo/client" "^3.2.1"
-    "@ember/test-waiters" "^2.3.0"
+    "@apollo/client" "^3.5.10"
+    "@ember/test-waiters" "~3.0.1"
+    "@embroider/macros" "^1.5.0"
+    "@glimmer/tracking" "^1.0.4"
     broccoli-graphql-filter "^1.0.0"
-    ember-auto-import "^1.6.0"
-    ember-cli-babel "^7.22.1"
+    ember-auto-import "^2.4.0"
+    ember-cli-babel "^7.26.11"
 
 "ember-app-scheduler@^5.1.2 || ^6.0.0 || ^7.0.0":
   version "7.0.1"
@@ -7320,7 +7324,7 @@ ember-auto-import@2.4.0, ember-auto-import@^2.2.3, ember-auto-import@^2.3.0, emb
     typescript-memoize "^1.0.0-alpha.3"
     walk-sync "^3.0.0"
 
-ember-auto-import@^1.11.3, ember-auto-import@^1.12.0, ember-auto-import@^1.2.19, ember-auto-import@^1.5.3, ember-auto-import@^1.6.0:
+ember-auto-import@^1.11.3, ember-auto-import@^1.12.0, ember-auto-import@^1.2.19, ember-auto-import@^1.5.3:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-1.12.1.tgz#09967bd35cd56ac45f413c48deabf7cfb3a785f6"
   integrity sha512-Jm0vWKNAy/wYMrdSQIrG8sRsvarIRHZ2sS/CGhMdMqVKJR48AhGU7NgPJ5SIlO/+seL2VSO+dtv7aEOEIaT6BA==

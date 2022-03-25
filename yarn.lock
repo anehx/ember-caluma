@@ -2375,6 +2375,26 @@
     luxon "^2.3.1"
     miragejs "^0.1.43"
 
+"@projectcaluma/ember-workflow@11.0.0-beta.5":
+  version "11.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@projectcaluma/ember-workflow/-/ember-workflow-11.0.0-beta.5.tgz#4e6b415e946ddc95be2b28e4cdec5f9b1adc701b"
+  integrity sha512-l4UTh5B/75+ABmjCHI+g71IWGZoYMML0gelY8n+RcR6SWhCaz4OUyvYm3AmVgx033kJCzLDRTsvIt0jmUWHn1w==
+  dependencies:
+    "@glimmer/component" "^1.0.4"
+    "@projectcaluma/ember-core" "^11.0.0-beta.5"
+    ember-apollo-client "^3.2.0"
+    ember-auto-import "^2.4.0"
+    ember-cli-babel "^7.26.11"
+    ember-cli-htmlbars "^6.0.1"
+    ember-composable-helpers "^5.0.0"
+    ember-concurrency "^2.2.1"
+    ember-fetch "^8.1.1"
+    ember-intl "^5.7.2"
+    ember-resources "^4.4.0"
+    ember-truth-helpers "^3.0.0"
+    ember-uikit "^5.0.0"
+    graphql "^15.8.0"
+
 "@semantic-release/changelog@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-6.0.1.tgz#8dd0334fd8c7d50cda747d2591e4f18f816b3c9c"
@@ -14888,10 +14908,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
-  integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==
+prettier@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.1.tgz#d472797e0d7461605c1609808e27b80c0f9cfe17"
+  integrity sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"

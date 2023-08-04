@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ember/string": "^3.1.1",
-    "@embroider/macros": "^1.12.3",
+    "@embroider/macros": "^1.13.1",
     "@embroider/util": "^1.11.2",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",

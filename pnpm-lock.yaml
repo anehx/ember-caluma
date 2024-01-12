@@ -148,22 +148,22 @@ importers:
         version: file:packages/analytics(@ember/test-helpers@3.2.1)(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(ember-data@5.3.0)(ember-modifier@4.1.0)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-core':
         specifier: workspace:*
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-distribution':
         specifier: workspace:*
-        version: file:packages/distribution(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/distribution(@glint/template@1.2.1)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-form':
         specifier: workspace:*
-        version: file:packages/form(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/form(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-form-builder':
         specifier: workspace:*
-        version: file:packages/form-builder(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-data@5.3.0)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/form-builder(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-data@5.3.0)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-testing':
         specifier: workspace:*
         version: file:packages/testing(@ember/test-helpers@3.2.1)(@glint/template@1.2.1)(ember-data@5.3.0)(ember-qunit@8.0.2)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-workflow':
         specifier: workspace:*
-        version: file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       broccoli-asset-rev:
         specifier: 3.0.0
         version: 3.0.0
@@ -334,7 +334,7 @@ importers:
         version: 1.1.2
       '@projectcaluma/ember-core':
         specifier: workspace:^
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client:
         specifier: ~4.0.2
         version: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
@@ -372,8 +372,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-sortable:
         specifier: ^5.0.0
         version: 5.0.0(@ember/test-helpers@3.2.1)(@ember/test-waiters@3.1.0)(ember-modifier@4.1.0)(ember-source@5.4.0)
@@ -528,8 +528,8 @@ importers:
         specifier: ^6.3.2
         version: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-uikit:
         specifier: ^9.0.0
         version: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
@@ -659,13 +659,13 @@ importers:
         version: 1.1.2
       '@projectcaluma/ember-core':
         specifier: workspace:^
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-form':
         specifier: workspace:^
         version: file:packages/form(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-workflow':
         specifier: workspace:^
-        version: file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client:
         specifier: ~4.0.2
         version: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
@@ -697,8 +697,8 @@ importers:
         specifier: ^6.3.2
         version: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-svg-jar:
         specifier: ^2.4.7
         version: 2.4.7(@glint/template@1.2.1)
@@ -843,7 +843,7 @@ importers:
         version: 1.1.2
       '@projectcaluma/ember-core':
         specifier: workspace:^
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client:
         specifier: ~4.0.2
         version: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
@@ -887,8 +887,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-uikit:
         specifier: ^9.0.0
         version: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
@@ -928,7 +928,7 @@ importers:
         version: file:packages/testing(@ember/test-helpers@3.2.1)(@glint/template@1.2.1)(ember-data@5.3.0)(ember-qunit@8.0.2)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-workflow':
         specifier: workspace:*
-        version: file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       broccoli-asset-rev:
         specifier: 3.0.0
         version: 3.0.0
@@ -1028,7 +1028,7 @@ importers:
         version: 1.1.2
       '@projectcaluma/ember-core':
         specifier: workspace:^
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       '@projectcaluma/ember-form':
         specifier: workspace:^
         version: file:packages/form(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
@@ -1078,8 +1078,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-test-selectors:
         specifier: ^6.0.0
         version: 6.0.0
@@ -1334,7 +1334,7 @@ importers:
         version: 1.1.2(@babel/core@7.23.5)
       '@projectcaluma/ember-core':
         specifier: workspace:^
-        version: file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+        version: file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client:
         specifier: ~4.0.2
         version: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
@@ -1360,8 +1360,8 @@ importers:
         specifier: ^6.3.2
         version: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-resources:
-        specifier: ^6.4.2
-        version: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+        specifier: ^7.0.0
+        version: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-truth-helpers:
         specifier: ^4.0.3
         version: 4.0.3(ember-source@5.4.0)
@@ -8899,17 +8899,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /ember-async-data@1.0.3(ember-source@5.4.0):
-    resolution: {integrity: sha512-54OtoQwNi+/ZvPOVuT4t8fcHR9xL8N7kBydzcZSo6BIEsLYeXPi3+jUR8niWjfjXXhKlJ8EWXR0lTeHleTrxbw==}
-    peerDependencies:
-      ember-source: '>=4.8.4 || ^5.0.0'
-    dependencies:
-      '@ember/test-waiters': 3.1.0
-      '@embroider/addon-shim': 1.8.7
-      ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
-    transitivePeerDependencies:
-      - supports-color
-
   /ember-auto-import@2.7.0(@glint/template@1.2.1)(webpack@5.89.0):
     resolution: {integrity: sha512-cBEBB6IRRmlCVfyaRmDCfLrywm2HibTosJzIKv4BWF1p2ZokUhXBJjMRwuaG3tbLMV8rmJdLWnSKm8CodsdmQA==}
     engines: {node: 12.* || 14.* || >= 16}
@@ -10480,32 +10469,22 @@ packages:
       - supports-color
     dev: true
 
-  /ember-resources@6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0):
-    resolution: {integrity: sha512-B1OLdSpekdiyk/yfHc+aJF3ovI6rskwJOLzd+iX60RTyicO9Nsjw8LU9XI95uk4AOqO0MbSXogQ/MsN/mIPzOw==}
+  /ember-resources@7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0):
+    resolution: {integrity: sha512-BRah6wsXMejHWfTBFJZ+8MYeUz4ylLP4afUxK+sPCb+Nv3LKqBTEPpvahHoE5FwY56pOPhg1TQWJI/+Aj1rWWA==}
     peerDependencies:
-      '@ember/test-waiters': ^3.0.0
-      '@glimmer/component': ^1.1.2
-      '@glimmer/tracking': ^1.1.2
-      '@glint/template': ^1.0.0-beta.3 || ^1.0.0
-      ember-concurrency: ^2.0.0 || ^3.0.0
-      ember-source: ^3.28.0 || ^4.0.0 || ^5.0.0
+      '@glimmer/component': '>= 1.1.2'
+      '@glimmer/tracking': '>= 1.1.2'
+      '@glint/template': '>= 1.0.0'
+      ember-source: ^3.28.0 || ^4.0.0 || >= 5.0.0 || ^5.0.0
     peerDependenciesMeta:
-      '@ember/test-waiters':
-        optional: true
       '@glimmer/component':
         optional: true
-      ember-concurrency:
-        optional: true
     dependencies:
-      '@babel/runtime': 7.23.6
-      '@ember/test-waiters': 3.1.0
       '@embroider/addon-shim': 1.8.7
       '@embroider/macros': 1.13.3(@glint/template@1.2.1)
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
       '@glimmer/tracking': 1.1.2
       '@glint/template': 1.2.1
-      ember-async-data: 1.0.3(ember-source@5.4.0)
-      ember-concurrency: 3.1.1(@babel/core@7.23.5)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
     transitivePeerDependencies:
       - supports-color
@@ -19440,7 +19419,7 @@ packages:
       '@ember/legacy-built-in-components': 0.5.0(@glint/template@1.2.1)(ember-source@5.4.0)
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
       '@glimmer/tracking': 1.1.2
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-core': file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
       ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
       ember-changeset: 4.1.2(@glint/template@1.2.1)(ember-data@5.3.0)(webpack@5.89.0)
@@ -19453,7 +19432,7 @@ packages:
       ember-fetch: 8.1.2
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-power-select: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-sortable: 5.0.0(@ember/test-helpers@3.2.1)(@ember/test-waiters@3.1.0)(ember-modifier@4.1.0)(ember-source@5.4.0)
       ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-validated-form: 7.0.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-data@5.3.0)(ember-source@5.4.0)(webpack@5.89.0)
@@ -19476,7 +19455,7 @@ packages:
       - webpack
     dev: true
 
-  file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0):
+  file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0):
     resolution: {directory: packages/core, type: directory}
     id: file:packages/core
     name: '@projectcaluma/ember-core'
@@ -19497,7 +19476,7 @@ packages:
       ember-fetch: 8.1.2
       ember-inflector: 4.0.2
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
       ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       graphql: 15.8.0
@@ -19506,7 +19485,6 @@ packages:
       lodash.clonedeep: 4.5.0
       slugify: 1.6.6
     transitivePeerDependencies:
-      - '@ember/test-waiters'
       - '@glimmer/component'
       - '@glint/environment-ember-loose'
       - '@glint/template'
@@ -19519,7 +19497,7 @@ packages:
       - typescript
       - webpack
 
-  file:packages/distribution(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0):
+  file:packages/distribution(@glint/template@1.2.1)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0):
     resolution: {directory: packages/distribution, type: directory}
     id: file:packages/distribution
     name: '@projectcaluma/ember-distribution'
@@ -19534,9 +19512,9 @@ packages:
       '@embroider/macros': 1.13.3(@glint/template@1.2.1)
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
       '@glimmer/tracking': 1.1.2
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      '@projectcaluma/ember-form': file:packages/form(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
-      '@projectcaluma/ember-workflow': file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-core': file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-form': file:packages/form(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-workflow': file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
       ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
       ember-can: 4.2.0
@@ -19548,7 +19526,7 @@ packages:
       ember-fetch: 8.1.2
       ember-flatpickr: 4.0.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
       ember-svg-jar: 2.4.7(@glint/template@1.2.1)
       ember-test-selectors: 6.0.0
@@ -19559,64 +19537,6 @@ packages:
       luxon: 3.4.4
       tracked-toolbox: 2.0.0(@babel/core@7.23.5)(ember-source@5.4.0)
     transitivePeerDependencies:
-      - '@ember/test-waiters'
-      - '@glint/environment-ember-loose'
-      - '@glint/template'
-      - encoding
-      - graphql-ws
-      - react
-      - react-dom
-      - subscriptions-transport-ws
-      - supports-color
-      - typescript
-      - webpack
-    dev: true
-
-  file:packages/form(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0):
-    resolution: {directory: packages/form, type: directory}
-    id: file:packages/form
-    name: '@projectcaluma/ember-form'
-    engines: {node: '>= 18'}
-    peerDependencies:
-      '@projectcaluma/ember-workflow': workspace:^
-      ember-source: ^4.0.0 || ^5.0.0
-    peerDependenciesMeta:
-      '@projectcaluma/ember-workflow':
-        optional: true
-    dependencies:
-      '@babel/core': 7.23.5
-      '@ember/string': 3.1.1
-      '@embroider/macros': 1.13.3(@glint/template@1.2.1)
-      '@embroider/util': 1.12.1(@glint/template@1.2.1)(ember-source@5.4.0)
-      '@glimmer/component': 1.1.2(@babel/core@7.23.5)
-      '@glimmer/tracking': 1.1.2
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      '@projectcaluma/ember-workflow': file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
-      ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
-      ember-autoresize-modifier: 0.7.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-cli-babel: 8.2.0(@babel/core@7.23.5)
-      ember-cli-htmlbars: 6.3.0
-      ember-cli-showdown: 7.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-composable-helpers: 5.0.0
-      ember-concurrency: 3.1.1(@babel/core@7.23.5)(ember-source@5.4.0)
-      ember-fetch: 8.1.2
-      ember-flatpickr: 4.0.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)
-      ember-in-viewport: 4.1.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
-      ember-math-helpers: 4.0.0(ember-source@5.4.0)
-      ember-power-select: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
-      ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
-      ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-validators: 4.1.2(@glint/template@1.2.1)
-      graphql: 15.8.0
-      jexl: 2.3.0
-      lodash.isequal: 4.5.0
-      luxon: 3.4.4
-      tracked-toolbox: 2.0.0(@babel/core@7.23.5)(ember-source@5.4.0)
-    transitivePeerDependencies:
-      - '@ember/test-waiters'
       - '@glint/environment-ember-loose'
       - '@glint/template'
       - encoding
@@ -19647,8 +19567,8 @@ packages:
       '@embroider/util': 1.12.1(@glint/template@1.2.1)(ember-source@5.4.0)
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
       '@glimmer/tracking': 1.1.2
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      '@projectcaluma/ember-workflow': file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-core': file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-workflow': file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
       ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
       ember-autoresize-modifier: 0.7.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
@@ -19663,7 +19583,7 @@ packages:
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-math-helpers: 4.0.0(ember-source@5.4.0)
       ember-power-select: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
       ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-validators: 4.1.2(@glint/template@1.2.1)
@@ -19673,7 +19593,6 @@ packages:
       luxon: 3.4.4
       tracked-toolbox: 2.0.0(@babel/core@7.23.5)(ember-source@5.4.0)
     transitivePeerDependencies:
-      - '@ember/test-waiters'
       - '@glint/environment-ember-loose'
       - '@glint/template'
       - encoding
@@ -19684,9 +19603,8 @@ packages:
       - supports-color
       - typescript
       - webpack
-    dev: false
 
-  file:packages/form-builder(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-data@5.3.0)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0):
+  file:packages/form-builder(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-data@5.3.0)(ember-engines@0.9.0)(ember-source@5.4.0)(webpack@5.89.0):
     resolution: {directory: packages/form-builder, type: directory}
     id: file:packages/form-builder
     name: '@projectcaluma/ember-form-builder'
@@ -19702,8 +19620,8 @@ packages:
       '@embroider/macros': 1.13.3(@glint/template@1.2.1)
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
       '@glimmer/tracking': 1.1.2
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      '@projectcaluma/ember-form': file:packages/form(@ember/test-waiters@3.1.0)(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-core': file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-form': file:packages/form(@glint/template@1.2.1)(@projectcaluma/ember-workflow@12.6.0)(ember-source@5.4.0)(webpack@5.89.0)
       codejar: 4.2.0
       ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
       ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
@@ -19720,7 +19638,7 @@ packages:
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
       ember-math-helpers: 4.0.0(ember-source@5.4.0)
       ember-power-select: 7.2.0(@babel/core@7.23.5)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
       ember-test-selectors: 6.0.0
       ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
@@ -19732,7 +19650,6 @@ packages:
       jexl: 2.3.0
       uikit: 3.17.11
     transitivePeerDependencies:
-      - '@ember/test-waiters'
       - '@glint/environment-ember-loose'
       - '@glint/template'
       - '@projectcaluma/ember-workflow'
@@ -19788,7 +19705,7 @@ packages:
       - webpack
     dev: true
 
-  file:packages/workflow(@ember/test-waiters@3.1.0)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0):
+  file:packages/workflow(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0):
     resolution: {directory: packages/workflow, type: directory}
     id: file:packages/workflow
     name: '@projectcaluma/ember-workflow'
@@ -19798,7 +19715,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.5
       '@glimmer/component': 1.1.2(@babel/core@7.23.5)
-      '@projectcaluma/ember-core': file:packages/core(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
+      '@projectcaluma/ember-core': file:packages/core(@glimmer/component@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       ember-apollo-client: 4.0.2(@glint/template@1.2.1)(graphql@15.8.0)(webpack@5.89.0)
       ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli-babel: 8.2.0(@babel/core@7.23.5)
@@ -19807,13 +19724,12 @@ packages:
       ember-concurrency: 3.1.1(@babel/core@7.23.5)(ember-source@5.4.0)
       ember-fetch: 8.1.2
       ember-intl: 6.3.2(@babel/core@7.23.5)(@glint/template@1.2.1)(webpack@5.89.0)
-      ember-resources: 6.4.2(@ember/test-waiters@3.1.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-concurrency@3.1.1)(ember-source@5.4.0)
+      ember-resources: 7.0.0(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
       ember-source: 5.4.0(@babel/core@7.23.5)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
       ember-truth-helpers: 4.0.3(ember-source@5.4.0)
       ember-uikit: 9.0.0(@glint/template@1.2.1)(ember-source@5.4.0)(webpack@5.89.0)
       graphql: 15.8.0
     transitivePeerDependencies:
-      - '@ember/test-waiters'
       - '@glimmer/tracking'
       - '@glint/environment-ember-loose'
       - '@glint/template'

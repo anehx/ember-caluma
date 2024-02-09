@@ -61,7 +61,7 @@
     "loader.js": "4.7.0",
     "qunit": "2.20.0",
     "qunit-dom": "3.0.0",
-    "uikit": "3.17.11",
+    "uikit": "3.18.1",
     "webpack": "5.89.0"
   },
   "peerDependencies": {
